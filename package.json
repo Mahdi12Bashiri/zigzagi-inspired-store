@@ -1,0 +1,28 @@
+{
+  "name": "zigzagi-clone",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch db.json --port 3016"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "tailwindcss": "^3.4.19",
+    "vite": "^8.0.12"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.2.0",
+    "axios": "^1.18.0",
+    "json-server": "^1.0.0-beta.15",
+    "live-server": "^1.2.2",
+    "swiper": "^14.0.1"
+  },
+  "description": "A responsive fashion e-commerce frontend inspired by Zigzagi, built with Vite, JavaScript and Tailwind CSS.",
+  "keywords": [],
+  "author": "Mahdi Bashiri",
+  "license": "ISC"
+}

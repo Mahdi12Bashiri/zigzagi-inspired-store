@@ -1,0 +1,662 @@
+{
+  "header": {
+    "topBanner": {
+      "image": "/src/assets/images/header/toph.jpg",
+      "alt": "logo page",
+      "link": null
+    },
+    "logo": {
+      "image": "/src/assets/images/header/logo1.png",
+      "alt": "لوگو زیگزاگی",
+      "link": null
+    },
+    "searchPlaceholder": "کد یا نام محصول مورد نظر را وارد کنید",
+    "searchPlaceholderMd": "نام یا کد محصول...",
+    "basketCount": 0,
+    "menu": [
+      {
+        "id": "1",
+        "title": "کالکشن بهار و تابستان",
+        "link": null,
+        "hasSubmenu": false
+      },
+      {
+        "id": "2",
+        "title": "دسته بندی روزمره",
+        "link": null,
+        "hasSubmenu": true,
+        "submenu": {
+          "links": [
+            { "title": "شلوار", "link": null },
+            { "title": "شومیز", "link": null },
+            { "title": "مانتو", "link": null },
+            { "title": "کت", "link": null },
+            { "title": "دامن", "link": null },
+            { "title": "پیراهن و کفتان", "link": null }
+          ],
+          "image": "/src/assets/images/header/1753909079-photo_2025-07-17_09-13-45-(2).jpg",
+          "href": null
+        }
+      },
+      { "id": "3", "title": "تماس با ما", "link": null, "hasSubmenu": false },
+      { "id": "4", "title": "درباره ما", "link": null, "hasSubmenu": false },
+      { "id": "5", "title": "بلاگ", "link": null, "hasSubmenu": false }
+    ],
+
+    "bars": {
+      "menu": [
+        {
+          "id": 1,
+          "title": "دسته بندی روزمره",
+          "link": null,
+          "hasSubmenu": true,
+          "submenu": {
+            "backButton": {
+              "title": "برگشت به دسته بندی ها"
+            },
+            "items": [
+              { "id": 1, "title": "شلوار", "link": null },
+              { "id": 2, "title": "شومیز", "link": null },
+              { "id": 3, "title": "مانتو", "link": null },
+              { "id": 4, "title": "کت", "link": null },
+              { "id": 5, "title": "دامن", "link": null },
+              { "id": 6, "title": "پیراهن و کفتان", "link": null }
+            ],
+            "button": {
+              "title": "مشاهده همه محصولات",
+              "link": null
+            }
+          }
+        },
+        {
+          "id": 2,
+          "title": "ست ها",
+          "link": null,
+          "hasSubmenu": true,
+          "submenu": {
+            "backButton": {
+              "title": "برگشت به دسته بندی ها"
+            },
+            "items": [
+              { "id": 1, "title": "کت و شلوار", "link": null },
+              { "id": 2, "title": "شومیز و دامن", "link": null },
+              { "id": 3, "title": "شومیز و شلوار", "link": null },
+              { "id": 4, "title": "کت و سارافون", "link": null },
+              { "id": 5, "title": "وست و دامن", "link": null },
+              { "id": 6, "title": "کت و دامن", "link": null }
+            ],
+            "button": {
+              "title": "مشاهده همه محصولات",
+              "link": null
+            }
+          }
+        },
+        {
+          "id": 3,
+          "title": "کالکشن بهار و تابستان",
+          "link": null,
+          "hasSubmenu": false
+        },
+        {
+          "id": 4,
+          "title": "محصولات اداری و دانشجویی",
+          "link": null,
+          "hasSubmenu": false
+        },
+        {
+          "id": 5,
+          "title": "محصولات جین",
+          "link": null,
+          "hasSubmenu": false
+        },
+        {
+          "id": 6,
+          "title": "مجلسی",
+          "link": null,
+          "hasSubmenu": false
+        },
+        {
+          "id": 7,
+          "title": "کمربند",
+          "link": null,
+          "hasSubmenu": false
+        },
+        {
+          "id": 8,
+          "title": "حراجی ها",
+          "link": null,
+          "hasSubmenu": false
+        },
+        {
+          "id": 9,
+          "title": "تخفیف های تک دونه ❤️",
+          "link": null,
+          "hasSubmenu": false
+        },
+        {
+          "id": 10,
+          "title": "یلدایی",
+          "link": null,
+          "hasSubmenu": false
+        },
+        {
+          "id": 11,
+          "title": "لباس پاییز و زمستان",
+          "link": null,
+          "hasSubmenu": true,
+          "submenu": {
+            "backButton": {
+              "title": "برگشت به دسته بندی ها"
+            },
+            "items": [
+              { "id": 1, "title": "سویشرت و بامبر", "link": null },
+              { "id": 2, "title": "دورس", "link": null },
+              { "id": 3, "title": "ست گرم", "link": null },
+              { "id": 4, "title": "هودی", "link": null },
+              { "id": 5, "title": "پالتو", "link": null },
+              { "id": 6, "title": "جلیقه", "link": null },
+              { "id": 7, "title": "بافت", "link": null },
+              { "id": 8, "title": "وست", "link": null },
+              { "id": 9, "title": "شکت", "link": null },
+              { "id": 10, "title": "پافر", "link": null },
+              { "id": 11, "title": "بارانی", "link": null },
+              { "id": 12, "title": "کاپشن", "link": null }
+            ],
+            "button": {
+              "title": "مشاهده همه محصولات",
+              "link": null
+            }
+          }
+        }
+      ],
+
+      "footer": {
+        "contact": {
+          "title": "تماس با ما",
+          "icon": "fa-phone",
+          "link": null
+        },
+
+        "login": {
+          "title": "ورود",
+          "link": null
+        },
+
+        "register": {
+          "title": "عضویت",
+          "link": null
+        },
+
+        "description": "با عضویت در مجموعه زیگزاگ از تخفیفات و هدایای باشگاه مشتریان بهره مند شوید."
+      }
+    }
+  },
+
+  "slider": [
+    {
+      "id": "1",
+      "image": "/src/assets/images/slider/1779708368-بنر-اصلی-دکستاپ.jpg",
+      "mobileImage": "/src/assets/images/slider/imgi_73_1779708377-بنر-اصلی-گوشی.jpg",
+      "link": null,
+      "alt": "کیفیت بالارو با قیمت پایین بخر"
+    },
+    {
+      "id": "2",
+      "image": "/src/assets/images/slider/1771484432-snapp-pay-site-banner-desktop.png",
+      "mobileImage": "/src/assets/images/slider/imgi_74_1771488719-بنر-گوشی.jpg",
+      "link": null,
+      "alt": "snapp pay site banner desktop"
+    },
+    {
+      "id": "3",
+      "image": "/src/assets/images/slider/1751275230-sz.png",
+      "mobileImage": "/src/assets/images/slider/imgi_75_1751405982-Untitled-1-mobile.jpg",
+      "link": null,
+      "alt": "کالکشن محصولات خنک و تابستونی"
+    },
+    {
+      "id": "4",
+      "image": "/src/assets/images/slider/1771534095-بنر-اصلی-دانشجویی.jpg",
+      "mobileImage": "/src/assets/images/slider/imgi_76_1771534103-بنر-اصلی-دانشجویی-گوشی-404.jpg",
+      "link": null,
+      "alt": "بنر اصلی دانشجویی."
+    }
+  ],
+
+  "promoBanners": {
+    "icon": {
+      "image": "/src/assets/images/promoBanner/icon1.png",
+      "alt": "Shopping"
+    },
+    "items": [
+      {
+        "id": 1,
+        "title": "کت و شلوار",
+        "image": "/src/assets/images/promoBanner/1781098630-بهار.jpg",
+        "link": null
+      },
+      {
+        "id": 2,
+        "title": "دسته بندی روزمره ",
+        "image": "/src/assets/images/promoBanner/1781098952-بهار-1.png",
+        "link": null
+      },
+      {
+        "id": 3,
+        "title": "شومیز",
+        "image": "/src/assets/images/promoBanner/1781098393-Artboard-1.jpg",
+        "link": null
+      },
+      {
+        "id": 4,
+        "title": "شلوار",
+        "image": "/src/assets/images/promoBanner/1781098413-Artboard-2.png",
+        "link": null
+      },
+      {
+        "id": 5,
+        "title": "حراجی ها",
+        "image": "/src/assets/images/promoBanner/1781098333-Artboard-3.png",
+        "link": null
+      }
+    ]
+  },
+
+  "newProducts": [
+    {
+      "icon": "/src/assets/images/newProducts/logo-inner.png",
+      "link": null
+    },
+    {
+      "id": "1",
+      "title": "کمربند چرم کد ۲۶۵۴",
+      "price": "۱۷۸,۰۰۰ تومان",
+      "image": "/src/assets/images/newProducts/1780233320-3.jpg",
+      "link": null
+    },
+    {
+      "id": "2",
+      "title": "شلوار بگ کرپ کنزو کد ۲۶۵۲",
+      "price": "۱,۴۹۸,۰۰۰ تومان",
+      "image": "/src/assets/images/newProducts/1780314814-9.jpg",
+      "link": null
+    },
+    {
+      "id": "3",
+      "title": "شومیز باکسی لینن کد ۲۶۵۱",
+      "price": "۱,۰۹۸,۰۰۰ تومان",
+      "image": "/src/assets/images/newProducts/1780480727-1.jpg",
+      "link": null
+    },
+    {
+      "id": "4",
+      "title": "شومیز شیک کد ۲۶۵۰",
+      "price": "۱,۱۳۸,۱۰۰ تومان",
+      "image": "/src/assets/images/newProducts/1782758344-1782746940-5.jpg",
+      "link": null
+    },
+    {
+      "id": "5",
+      "title": "شلوار بگ کرپ کنزو کد ۲۶۵۲",
+      "price": "۱,۴۹۸,۰۰۰ تومان",
+      "image": "/src/assets/images/newProducts/1782822879-13.jpg",
+      "link": null
+    },
+    {
+      "id": "6",
+      "title": "شومیز باکسی لینن کد ۲۶۵۱",
+      "price": "۱,۰۹۸,۰۰۰ تومان",
+      "image": "/src/assets/images/newProducts/1782902982-5.jpg",
+      "link": null
+    }
+  ],
+
+  "doubleBanner": [
+    {
+      "id": 1,
+      "image": "/src/assets/images/doubleBanner/1779708272-بنر-کت.jpg",
+      "link": null
+    },
+    {
+      "id": 2,
+      "image": "/src/assets/images/doubleBanner/1779708293-بنر-شومیز.jpg",
+      "link": null
+    }
+  ],
+
+  "dailyProducts": [
+    {
+      "icon": "/src/assets/images/newProducts/logo-inner.png",
+      "link": null
+    },
+    {
+      "id": "1",
+      "title": "کمربند چرم کد ۲۶۵۴",
+      "price": "۱۷۸,۰۰۰ تومان",
+      "image": "/src/assets/images/dailyProducts/1759249734-photo_2025-09-30_09-28-31.jpg",
+      "link": null
+    },
+    {
+      "id": "2",
+      "title": "شلوار بگ کرپ کنزو کد ۲۶۵۲",
+      "price": "۱,۴۹۸,۰۰۰ تومان",
+      "image": "/src/assets/images/dailyProducts/1771945838-photo-output.png",
+      "link": null
+    },
+    {
+      "id": "3",
+      "title": "شومیز باکسی لینن کد ۲۶۵۱",
+      "price": "۱,۰۹۸,۰۰۰ تومان",
+      "image": "/src/assets/images/dailyProducts/1782056062-3.jpg",
+      "link": null
+    },
+    {
+      "id": "4",
+      "title": "شومیز شیک کد ۲۶۵۰",
+      "price": "۱,۱۳۸,۱۰۰ تومان",
+      "image": "/src/assets/images/dailyProducts/1782115122-3.jpg",
+      "link": null
+    },
+    {
+      "id": "5",
+      "title": "شلوار بگ کرپ کنزو کد ۲۶۵۲",
+      "price": "۱,۴۹۸,۰۰۰ تومان",
+      "image": "/src/assets/images/dailyProducts/1782555720-3.jpg",
+      "link": null
+    },
+    {
+      "id": "6",
+      "title": "شومیز باکسی لینن کد ۲۶۵۱",
+      "price": "۱,۰۹۸,۰۰۰ تومان",
+      "image": "/src/assets/images/dailyProducts/1782734843-photo-output.png",
+      "link": null
+    }
+  ],
+
+  "dailyBanner": [
+    {
+      "id": 1,
+      "image": "/src/assets/images/dailyBanner/1779960586-بنر-اخری-دسکتاپ-2.png",
+      "alt": "Daily Banner",
+      "link": null
+    },
+    {
+      "id": 2,
+      "image": "/src/assets/images/dailyBanner/1779960675-بنر-اخری-گوشی-2.png",
+      "alt": "Daily Banner",
+      "link": null
+    }
+  ],
+
+  "goldenOffers": [
+    {
+      "icon": "/src/assets/images/newProducts/logo-inner.png",
+      "link": null
+    },
+    {
+      "id": "1",
+      "title": "کمربند چرم کد ۲۶۵۴",
+      "price": "۱۷۸,۰۰۰ تومان",
+      "image": "/src/assets/images/goldenOffers/1756981505-photo_2025-09-04_13-53-47.jpg",
+      "link": null
+    },
+    {
+      "id": "2",
+      "title": "شلوار بگ کرپ کنزو کد ۲۶۵۲",
+      "price": "۱,۴۹۸,۰۰۰ تومان",
+      "image": "/src/assets/images/goldenOffers/1780931444-7.jpg",
+      "link": null
+    },
+    {
+      "id": "3",
+      "title": "شومیز باکسی لینن کد ۲۶۵۱",
+      "price": "۱,۰۹۸,۰۰۰ تومان",
+      "image": "/src/assets/images/goldenOffers/1781040959-2.jpg",
+      "link": null
+    },
+    {
+      "id": "4",
+      "title": "شومیز شیک کد ۲۶۵۰",
+      "price": "۱,۱۳۸,۱۰۰ تومان",
+      "image": "/src/assets/images/goldenOffers/1781260578-3.jpg",
+      "link": null
+    },
+    {
+      "id": "5",
+      "title": "شلوار بگ کرپ کنزو کد ۲۶۵۲",
+      "price": "۱,۴۹۸,۰۰۰ تومان",
+      "image": "/src/assets/images/goldenOffers/1781438581-1.jpg",
+      "link": null
+    },
+    {
+      "id": "6",
+      "title": "شومیز باکسی لینن کد ۲۶۵۱",
+      "price": "۱,۰۹۸,۰۰۰ تومان",
+      "image": "/src/assets/images/goldenOffers/1781454133-8.jpg",
+      "link": null
+    }
+  ],
+
+  "newsMain": {
+    "instMockup": {
+      "right": {
+        "head": {
+          "id": 1,
+          "cover": {
+            "image": "/src/assets/images/newsMain/right/insta-cover.svg",
+            "alt": "Instagram Header"
+          },
+          "icon": {
+            "image": "/src/assets/images/newsMain/right/instagram-2016-logo-svgrepo-com.svg",
+            "alt": "Instagram Logo"
+          },
+          "link": null
+        },
+        "bottom": {
+          "id": 2,
+          "image": "/src/assets/images/newsMain/right/instagram-info.png",
+          "alt": "Instagram cover",
+          "link": null
+        }
+      },
+      "left": {
+        "mobile": {
+          "id": 1,
+          "image": "/src/assets/images/newsMain/right/mockup.png",
+          "alt": "Instagram cover",
+          "link": null
+        },
+        "video": {
+          "id": 2,
+          "video": "/src/assets/images/newsMain/right/1752936611-IMG_28.mp4",
+          "link": null
+        }
+      }
+    },
+    "blogzigzag": [
+      {
+        "id": 1,
+        "title": "دانشگاه چی بپوشیم ؟",
+        "alt": "کت و شلوار",
+        "image": "/src/assets/images/newsMain/left/1753263651-photo_2025-07-17_08-15-25.jpg",
+        "link": null,
+        "data": "1404/05/01"
+      },
+      {
+        "id": 2,
+        "title": "شومیز مانتویی چی بپوشیم؟",
+        "alt": "دسته بندی روزمره ",
+        "image": "/src/assets/images/newsMain/left/1753295606-IMG_2972.jpg",
+        "link": null,
+        "data": "1404/07/28"
+      },
+      {
+        "id": 3,
+        "title": "همه چیز درباره پارچه لینن",
+        "alt": "شومیز",
+        "image": "/src/assets/images/newsMain/left/1753295913-IMG_2973.jpg",
+        "link": null,
+        "data": "1404/05/01"
+      },
+      {
+        "id": 4,
+        "title": "راهنمای کامل خرید و انتخاب دامن مناسب",
+        "alt": "شلوار",
+        "image": "/src/assets/images/newsMain/left/1758535713-دانشجو-س3-Recovered.jpg",
+        "link": null,
+        "data": "1404/05/01"
+      }
+    ]
+  },
+
+  "storeFeatures": [
+    {
+      "id": 1,
+      "title": "ارسال کالا",
+      "subtitle": "به تمام نقاط کشور",
+      "alt": "ارسال کالا",
+      "icon": "/src/assets/images/storeFeatures/slug1.svg"
+    },
+    {
+      "id": 2,
+      "title": "ضمانت اصالت و سلامت کالا",
+      "subtitle": "همراهی شما در فرایند خرید",
+      "alt": "ضمانت اصالت کالا",
+      "icon": "/src/assets/images/storeFeatures/slug2.svg"
+    },
+    {
+      "id": 3,
+      "title": "ساعات پاسخگویی پشتیبانی",
+      "subtitle": "۹ الی ۱۷",
+      "alt": "پشتیبانی",
+      "icon": "/src/assets/images/storeFeatures/slug3.svg"
+    },
+    {
+      "id": 4,
+      "title": "ضمانت محصولات",
+      "subtitle": "ضمانت تعویض و مرجوع کالا",
+      "alt": "ضمانت محصولات",
+      "icon": "/src/assets/images/storeFeatures/slug4.svg"
+    }
+  ],
+
+  "floatingChat": {
+    "image": "/src/assets/images/floatingChat/floatingChat.png",
+    "alt": "floatingChat",
+    "link": null
+  },
+
+  "footer": {
+    "logo": "/src/assets/images/footer/favicon.svg",
+
+    "socials": [
+      {
+        "id": 1,
+        "name": "Instagram",
+        "iconClass": "fa-instagram",
+        "link": null
+      },
+      {
+        "id": 2,
+        "name": "Telegram",
+        "iconClass": "fa-telegram",
+        "link": null
+      }
+    ],
+
+    "columns": [
+      {
+        "id": 1,
+        "title": "زیگزاگی",
+        "links": [
+          {
+            "text": "محصولات",
+            "url": null
+          },
+          {
+            "text": "تماس با ما",
+            "url": null
+          },
+          {
+            "text": "درباره ما",
+            "url": null
+          },
+          {
+            "text": "متقاضیان استخدام",
+            "url": null
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "خدمات مشتریان",
+        "links": [
+          {
+            "text": "خرید قسطی با زیگزاگی",
+            "url": null
+          },
+          {
+            "text": "باشگاه مشتریان",
+            "url": null
+          },
+          {
+            "text": "نحوه تعویض و بازگردانی",
+            "url": null
+          },
+          {
+            "text": "سوالات متداول",
+            "url": null
+          },
+          {
+            "text": "پرداخت مجزا",
+            "url": null
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "راهنمای خرید",
+        "links": [
+          {
+            "text": "نحوه ثبت سفارش",
+            "url": null
+          },
+          {
+            "text": "روش‌های ارسال و هزینه‌ها",
+            "url": null
+          },
+          {
+            "text": "راهنمای پرداخت",
+            "url": null
+          },
+          {
+            "text": "نحوه ارسال و پیگیری سفارش",
+            "url": null
+          }
+        ]
+      }
+    ],
+
+    "newsletter": {
+      "title": "عضویت در خبرنامه",
+      "placeholder": "شماره همراه خود را وارد کنید"
+    },
+
+    "enamad": [
+      {
+        "id": 1,
+        "image": "/src/assets/images/footer/enemad.png",
+        "alt": "نماد اعتماد الکترونیکی",
+        "link": null
+      },
+      {
+        "id": 2,
+        "image": "/src/assets/images/footer/enemad.png",
+        "alt": "ساماندهی",
+        "link": null
+      }
+    ],
+
+    "copyright": "Copyright © 2026 Mahdi Bhashiri. All rights reserved."
+  }
+}
