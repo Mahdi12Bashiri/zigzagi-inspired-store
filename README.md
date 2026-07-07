@@ -14,25 +14,25 @@ A modern and responsive fashion e-commerce frontend built with **Vanilla JavaScr
 
 ## 📸 Hero Preview
 
-![Hero](screenshots/hero.png)
+![Hero](preview/hero-sec.png)
 
 ---
 
 ## 🎥 Demo
 
-![Demo](screenshots/demo.gif)
+![Demo](preview/demo.gif)
 
 ---
 
 ## 🖥️ Desktop Preview
 
-![Desktop](screenshots/desktop.png)
+![Desktop](preview/preview-desktop.png)
 
 ---
 
 ## 📱 Mobile Preview
 
-![Mobile](screenshots/mobile.png)
+![Mobile](preview/mobile.png)
 
 ---
 
