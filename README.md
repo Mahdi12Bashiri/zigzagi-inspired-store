@@ -1,16 +1,16 @@
 # 🛍️ Zigzagi Inspired Fashion Store
 
-A modern and fully responsive fashion e-commerce frontend inspired by the Zigzagi website.
+A modern and fully responsive fashion e-commerce frontend inspired by the Zigzag website.
 
 This project was independently developed using Vanilla JavaScript with a modular architecture. While the design is inspired by the original website, many sections were redesigned and customized, and the entire frontend implementation, responsive layout, and application logic were built from scratch.
 
 ## 🌐 Live Demo
 
-🔗 https://zigzagi-clone.netlify.app/
+🔗 https://zigzagi-inspired-store.netlify.app/
 
 ## 💻 Source Code
 
-🔗 https://github.com/Mahdi12Bashiri/zigzagi-store-clone
+🔗 https://github.com/Mahdi12Bashiri/zigzagi-inspired-store
 
 ---
 
@@ -94,7 +94,7 @@ vite.config.js
 Clone the repository
 
 ```bash
-git clone https://github.com/Mahdi12Bashiri/zigzagi-store-clone.git
+git clone https://github.com/Mahdi12Bashiri/zigzagi-inspired-store.git
 ```
 
 Install dependencies
@@ -175,4 +175,4 @@ https://github.com/Mahdi12Bashiri
 
 This project was created for educational and portfolio purposes.
 
-The UI design is inspired by the Zigzagi website. The frontend implementation, project architecture, responsive layout, and application logic were independently developed and customized.
+The UI design is inspired by the Zigzag website. The frontend implementation, project architecture, responsive layout, and application logic were independently developed and customized.
