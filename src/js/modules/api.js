@@ -1,12 +1,33 @@
 import axios from "axios";
 
+// تشخیص اینکه پروژه روی سیستم خودت اجرا میشه یا آنلاین (Production)
+const isDev = import.meta.env.DEV;
+
+// برای حالت لوکال
 const api = axios.create({
   baseURL: "http://localhost:3016",
   timeout: 7000,
   headers: { "Content-Type": "application/json" },
 });
 
+// برای حالت آنلاین: دیتابیس رو یک‌بار کش میکنه تا سرعت لود بالا بمونه
+let cachedDb = null;
+const getProdData = async (key) => {
+  if (!cachedDb) {
+    try {
+      // در حالت آنلاین، فایل db.json رو مستقیم می‌خونه
+      const { data } = await axios.get("./db.json");
+      cachedDb = data;
+    } catch (e) {
+      console.error("خطا در بارگذاری دیتابیس آنلاین:", e);
+      return null;
+    }
+  }
+  return cachedDb ? cachedDb[key] : null;
+};
+
 export const getHeaderData = async () => {
+  if (!isDev) return getProdData("header");
   try {
     const { data } = await api.get("/header");
     return data;
@@ -16,6 +37,7 @@ export const getHeaderData = async () => {
 };
 
 export const getSliderData = async () => {
+  if (!isDev) return getProdData("slider");
   try {
     const { data } = await api.get("/slider");
     return data;
@@ -25,6 +47,7 @@ export const getSliderData = async () => {
 };
 
 export const getPromoBannerData = async () => {
+  if (!isDev) return getProdData("promoBanners");
   try {
     const { data } = await api.get("/promoBanners");
     return data;
@@ -34,6 +57,7 @@ export const getPromoBannerData = async () => {
 };
 
 export const getNewProductsData = async () => {
+  if (!isDev) return getProdData("newProducts");
   try {
     const { data } = await api.get("/newProducts");
     return data;
@@ -43,6 +67,7 @@ export const getNewProductsData = async () => {
 };
 
 export const getDoubleBannerData = async () => {
+  if (!isDev) return getProdData("doubleBanner");
   try {
     const { data } = await api.get("/doubleBanner");
     return data;
@@ -52,6 +77,7 @@ export const getDoubleBannerData = async () => {
 };
 
 export const getDailyProductsData = async () => {
+  if (!isDev) return getProdData("dailyProducts");
   try {
     const { data } = await api.get("/dailyProducts");
     return data;
@@ -61,6 +87,7 @@ export const getDailyProductsData = async () => {
 };
 
 export const getDailyBannerData = async () => {
+  if (!isDev) return getProdData("dailyBanner");
   try {
     const { data } = await api.get("/dailyBanner");
     return data;
@@ -70,6 +97,7 @@ export const getDailyBannerData = async () => {
 };
 
 export const getGoldenOffersData = async () => {
+  if (!isDev) return getProdData("goldenOffers");
   try {
     const { data } = await api.get("/goldenOffers");
     return data;
@@ -79,6 +107,7 @@ export const getGoldenOffersData = async () => {
 };
 
 export const getNewsMainData = async () => {
+  if (!isDev) return getProdData("newsMain");
   try {
     const { data } = await api.get("/newsMain");
     return data;
@@ -88,6 +117,7 @@ export const getNewsMainData = async () => {
 };
 
 export const getStoreFeaturesData = async () => {
+  if (!isDev) return getProdData("storeFeatures");
   try {
     const { data } = await api.get("/storeFeatures");
     return data;
@@ -97,6 +127,7 @@ export const getStoreFeaturesData = async () => {
 };
 
 export const getFloatingChatData = async () => {
+  if (!isDev) return getProdData("floatingChat");
   try {
     const { data } = await api.get("/floatingChat");
     return data;
@@ -106,6 +137,7 @@ export const getFloatingChatData = async () => {
 };
 
 export const getFooterData = async () => {
+  if (!isDev) return getProdData("footer");
   try {
     const { data } = await api.get("/footer");
     return data;
