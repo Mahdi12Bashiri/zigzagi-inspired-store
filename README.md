@@ -1,90 +1,102 @@
-# 🛍️ Zigzagi Inspired Fashion Store
+# 🛍️ Zigzagi Store
 
-A modern and fully responsive fashion e-commerce frontend inspired by the Zigzag website.
+A modern and responsive fashion e-commerce frontend built with **Vanilla JavaScript**, **Vite**, **Tailwind CSS**, and **Axios**.
 
-This project was independently developed using Vanilla JavaScript with a modular architecture. While the design is inspired by the original website, many sections were redesigned and customized, and the entire frontend implementation, responsive layout, and application logic were built from scratch.
+**Zigzagi** is an original fictional fashion brand created for this project. While the visual design takes inspiration from the **Zigzag** online store, the entire source code, project architecture, and implementation were developed independently from scratch, with many sections redesigned and customized.
+
+---
 
 ## 🌐 Live Demo
 
 🔗 https://zigzagi-inspired-store.netlify.app/
 
-## 💻 Source Code
+---
 
-🔗 https://github.com/Mahdi12Bashiri/zigzagi-inspired-store
+## 📸 Hero Preview
+
+![Hero](screenshots/hero.png)
 
 ---
 
-# 📖 About The Project
+## 🎥 Demo
 
-The goal of this project was to build a modern fashion e-commerce frontend while practicing real-world frontend development techniques.
+![Demo](screenshots/demo.gif)
 
-Instead of hardcoding the UI, the application dynamically renders data using Axios. During development, JSON Server is used as a mock REST API, while the production version loads the same data from a static JSON file, allowing the project to be deployed without a backend.
+---
 
-The project emphasizes:
+## 🖥️ Desktop Preview
 
-- Clean Architecture
-- Modular JavaScript
-- Responsive Design
-- Reusable Components
-- Dynamic Rendering
-- Maintainable Code
+![Desktop](screenshots/desktop.png)
+
+---
+
+## 📱 Mobile Preview
+
+![Mobile](screenshots/mobile.png)
 
 ---
 
 # ✨ Features
 
-- 📱 Fully Responsive Layout
-- ⚡ Built with Vite
-- 🧩 Modular JavaScript Structure
-- 🔄 Dynamic Data Rendering with Axios
-- 🎞️ Hero Slider using Swiper.js
-- 📂 Mobile Navigation Menu
-- 🛍️ Product Sections
-- 📰 Blog Section
-- 💬 Floating Chat Widget
-- 🎨 Modern UI
-- 🚀 Production Ready Build
-- 📦 Organized Folder Structure
+- ✅ Fully Responsive Layout
+- ✅ Modern Fashion Store Landing Page
+- ✅ Dynamic Header
+- ✅ Mobile Navigation Menu
+- ✅ Hero Slider (Swiper.js)
+- ✅ Product Sliders
+- ✅ Promotional Banner Sections
+- ✅ Search Modal
+- ✅ Data Rendering with Axios
+- ✅ Modular JavaScript Architecture
+- ✅ Component-based Code Organization
+- ✅ Clean Folder Structure
+- ✅ Optimized Images & Assets
+- ✅ Deployed on Netlify
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠 Tech Stack
 
-- HTML5
-- CSS3
-- Tailwind CSS
-- JavaScript (ES6+)
-- Axios
-- Vite
-- Swiper.js
-- Font Awesome
-- JSON Server
-- Netlify
+| Frontend | Tools |
+|-----------|-------|
+| HTML5 | Vite |
+| CSS3 | Axios |
+| Tailwind CSS | Swiper.js |
+| JavaScript (ES6+) | Font Awesome |
+| JSON | Git & GitHub |
 
 ---
 
-# 📁 Project Structure
+# 📂 Project Structure
 
 ```text
-public/
+.
+├── public/
+│   ├── db.json
+│   ├── favicon.svg
+│   └── images/
 │
-├── images/
-├── db.json
-└── favicon.svg
-
-src/
+├── screenshots/
+│   ├── hero.png
+│   ├── desktop.png
+│   ├── mobile.png
+│   └── demo.gif
 │
-├── css/
-├── js/
-│   ├── modules/
-│   └── main.js
+├── src/
+│   ├── assets/
+│   │   └── fonts/
+│   │
+│   ├── css/
+│   │   ├── style.css
+│   │   └── tailwind.css
+│   │
+│   └── js/
+│       ├── modules/
+│       └── main.js
 │
-└── assets/
-    └── fonts/
-
-package.json
-tailwind.config.js
-vite.config.js
+├── index.html
+├── package.json
+└── vite.config.js
 ```
 
 ---
@@ -97,68 +109,92 @@ Clone the repository
 git clone https://github.com/Mahdi12Bashiri/zigzagi-inspired-store.git
 ```
 
+Navigate to the project
+
+```bash
+cd zigzagi-inspired-store
+```
+
 Install dependencies
 
 ```bash
 npm install
 ```
 
-Run development server
+Start the development server
 
 ```bash
 npm run dev
 ```
 
-Run JSON Server
+Run JSON Server (Development Only)
 
 ```bash
 npm run server
 ```
 
-Build production version
+---
+
+# 📜 Available Scripts
 
 ```bash
+npm run dev
 npm run build
-```
-
-Preview production build
-
-```bash
 npm run preview
+npm run server
 ```
 
 ---
 
-# 📷 Preview
+# ⚙️ Development Workflow
 
-> Screenshots or GIF preview will be added soon.
+During development, the project uses **JSON Server** together with **Axios** to simulate a REST API.
+
+For the deployed version on **Netlify**, Axios automatically loads data from a local `db.json` file, preserving the same data-fetching architecture without requiring a backend service.
+
+This approach keeps the production build fully static while demonstrating API-driven development.
 
 ---
 
 # 🎯 What I Practiced
 
-- Building a responsive e-commerce interface
-- Creating a modular project structure
+- Responsive Web Design
+- Modern Frontend Workflow with Vite
+- Modular JavaScript Architecture
+- REST API Simulation
 - Working with Axios
-- Simulating REST APIs using JSON Server
-- Dynamic DOM rendering
-- Organizing reusable JavaScript modules
-- Managing assets for production deployment
-- Deploying projects with Netlify
+- DOM Manipulation
+- Reusable Components
+- Mobile-first UI Development
+- Clean Project Structure
+- Frontend Deployment
 
 ---
 
 # 🚀 Future Improvements
 
+- User Authentication
 - Shopping Cart
 - Wishlist
 - Product Details Page
-- Product Search
-- Product Filtering & Sorting
-- Authentication
+- Category Pages
+- Product Filtering
+- Product Sorting
+- Search Functionality
 - Dark Mode
 - Better Accessibility
 - Performance Optimization
+- Backend Integration
+
+---
+
+# 📄 Disclaimer
+
+This project was created for educational and portfolio purposes.
+
+The project introduces an original fictional brand called **Zigzagi**.
+
+The visual design is inspired by the **Zigzag** online fashion store, while the implementation, source code, architecture, and project structure were independently developed from scratch.
 
 ---
 
@@ -171,8 +207,4 @@ https://github.com/Mahdi12Bashiri
 
 ---
 
-# 📄 Disclaimer
-
-This project was created for educational and portfolio purposes.
-
-The UI design is inspired by the Zigzag website. The frontend implementation, project architecture, responsive layout, and application logic were independently developed and customized.
+⭐ If you like this project, feel free to give it a star!
