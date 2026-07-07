@@ -1,21 +1,17 @@
 import axios from "axios";
 
-// تشخیص اینکه پروژه روی سیستم خودت اجرا میشه یا آنلاین (Production)
 const isDev = import.meta.env.DEV;
 
-// برای حالت لوکال
 const api = axios.create({
   baseURL: "http://localhost:3016",
   timeout: 7000,
   headers: { "Content-Type": "application/json" },
 });
 
-// برای حالت آنلاین: دیتابیس رو یک‌بار کش میکنه تا سرعت لود بالا بمونه
 let cachedDb = null;
 const getProdData = async (key) => {
   if (!cachedDb) {
     try {
-      // در حالت آنلاین، فایل db.json رو مستقیم می‌خونه
       const { data } = await axios.get("./db.json");
       cachedDb = data;
     } catch (e) {
