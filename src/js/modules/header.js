@@ -12,6 +12,12 @@ export const createLogo = (data) => {
   link.className =
     "top__banner block transition-transform duration-500 will-change-transform";
 
+  const picture = document.createElement("picture");
+
+  const source = document.createElement("source");
+  source.media = "(max-width: 767px)";
+  source.srcset = data.mobileImage;
+
   const img = document.createElement("img");
   img.src = data.image;
   img.alt = data.alt;
@@ -19,7 +25,9 @@ export const createLogo = (data) => {
   img.decoding = "async";
   img.className = "block w-full";
 
-  link.appendChild(img);
+  picture.append(source, img);
+
+  link.appendChild(picture);
 
   let lastScroll = 0;
 

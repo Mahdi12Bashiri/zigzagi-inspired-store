@@ -31,7 +31,7 @@ export const createFooter = (data) => {
                 .map(
                   (social) => `
                   <a
-                      href="${social.link}"
+                      href="${social.link ?? "#"}"
                       target="_blank"
                       rel="noopener noreferrer"
                       class="lg:hover:text-black transition-colors"
@@ -58,7 +58,7 @@ export const createFooter = (data) => {
                     .map(
                       (link) => `
                       <li>
-                      <a href="${link.url}" class="text-sm text-gray-700 lg:hover:text-[#ffd50d] lg:hover:font-semibold transition-all duration-150 block">
+                      <a href="${link.url ?? "#"}" class="text-sm text-gray-700 lg:hover:text-[#ffd50d] lg:hover:font-semibold transition-all duration-150 block">
                           ${link.text}
                       </a>
                       </li>
@@ -109,7 +109,7 @@ export const createFooter = (data) => {
             ${enamad
               .map(
                 (item) => `
-              <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="lg:w-full max-w-[141px] bg-white rounded-xl p-2 flex items-center justify-center shadow-sm lg:hover:shadow-md transition-shadow" title="${item.alt}">
+              <a href="${item.link ?? "#"}" target="_blank" rel="noopener noreferrer" class="lg:w-full max-w-[141px] bg-white rounded-xl p-2 flex items-center justify-center shadow-sm lg:hover:shadow-md transition-shadow" title="${item.alt}">
                 <img src="${item.image}" alt="${item.alt}" class="max-w-full max-h-full object-contain" />
               </a>
             `,

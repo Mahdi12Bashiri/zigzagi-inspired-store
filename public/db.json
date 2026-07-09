@@ -2,6 +2,7 @@
   "header": {
     "topBanner": {
       "image": "/images/header/toph.jpg",
+      "mobileImage": "/images/header/mobile-top.jpg",
       "alt": "logo page",
       "link": null
     },
