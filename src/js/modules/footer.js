@@ -140,7 +140,7 @@ export const createFooter = (data) => {
           </span>
         </div>
 
-        <p class="font-medium text-right">
+        <p class="font-medium text-center">
           ${copyright}
         </p>
 
@@ -159,11 +159,9 @@ export const createFooter = (data) => {
 
     const mobile = input.value.trim();
 
-    // ریست کردن وضعیت قبلی
     wrapper.classList.remove("border-red-500", "border-green-500");
     message.classList.remove("hidden", "text-red-500", "text-green-600");
 
-    // خالی بودن
     if (!mobile) {
       wrapper.classList.add("border-red-500");
 
@@ -174,7 +172,6 @@ export const createFooter = (data) => {
       return;
     }
 
-    // اعتبارسنجی شماره موبایل ایران
     const regex = /^09\d{9}$/;
 
     if (!regex.test(mobile)) {
@@ -187,7 +184,6 @@ export const createFooter = (data) => {
       return;
     }
 
-    // موفقیت
     wrapper.classList.add("border-green-500");
 
     message.textContent = "شما با موفقیت در خبرنامه پیامکی عضو شدید.";
