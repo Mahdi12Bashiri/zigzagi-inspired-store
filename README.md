@@ -76,9 +76,9 @@ A modern and responsive fashion e-commerce frontend built with **Vanilla JavaScr
 │   ├── favicon.svg
 │   └── images/
 │
-├── screenshots/
-│   ├── hero.png
-│   ├── desktop.png
+├── preview/
+│   ├── hero-sec.png
+│   ├── preview-desktop.png
 │   ├── mobile.png
 │   └── demo.gif
 │
