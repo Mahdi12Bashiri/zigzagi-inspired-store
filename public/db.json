@@ -196,15 +196,15 @@
   "slider": [
     {
       "id": "1",
-      "image": "/images/slider/1779708368-بنر-اصلی-دکستاپ.jpg",
-      "mobileImage": "/images/slider/imgi_73_1779708377-بنر-اصلی-گوشی.jpg",
+      "image": "/images/slider/1779708368-بنر-اصلی-دکستاپ.png",
+      "mobileImage": "/images/slider/imgi_73_1779708377-بنر-اصلی-گوشی.png",
       "link": null,
       "alt": "کیفیت بالارو با قیمت پایین بخر"
     },
     {
       "id": "2",
-      "image": "/images/slider/1771484432-snapp-pay-site-banner-desktop.png",
-      "mobileImage": "/images/slider/imgi_74_1771488719-بنر-گوشی.jpg",
+      "image": "/images/slider/1771484432-snapp-pay-site-banner-desktop.jpg",
+      "mobileImage": "/images/slider/imgi_74_1771488719-بنر-گوشی.png",
       "link": null,
       "alt": "snapp pay site banner desktop"
     },
