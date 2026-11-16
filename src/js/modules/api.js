@@ -2,6 +2,26 @@ import axios from "axios";
 
 const isDev = import.meta.env.DEV;
 
+// On GitHub Pages this project is served from /zigzagi-inspired-store/.
+// Prefix root-relative asset paths from db.json with Vite's configured base URL.
+const baseUrl = import.meta.env.BASE_URL || "/";
+const withBasePath = (value) => {
+  if (typeof value !== "string" || !value.startsWith("/") || value.startsWith("//")) {
+    return value;
+  }
+  return `${baseUrl}${value.replace(/^\\/+/, "")}`;
+};
+
+const withBasePaths = (value) => {
+  if (Array.isArray(value)) return value.map(withBasePaths);
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value).map(([key, nested]) => [key, withBasePaths(nested)]),
+    );
+  }
+  return withBasePath(value);
+};
+
 const api = axios.create({
   baseURL: "http://localhost:3016",
   timeout: 7000,
@@ -13,7 +33,7 @@ const getProdData = async (key) => {
   if (!cachedDb) {
     try {
       const { data } = await axios.get("./db.json");
-      cachedDb = data;
+      cachedDb = withBasePaths(data);
     } catch (e) {
       console.error("خطا در بارگذاری دیتابیس آنلاین:", e);
       return null;
